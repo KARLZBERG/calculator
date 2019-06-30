@@ -11,7 +11,7 @@
   height: 380px;
 }
 
-#input {
+#display {
 	margin-top: 20px;
 	margin-left: 4px;
 	margin-right: 4px;
@@ -21,7 +21,7 @@
 	text-align: right;
 }
 
-.operators div {
+.operators input {
   display: inline-block;
   border: 1px solid #bbb;
   border-radius: 1px;
@@ -33,11 +33,11 @@
   background-color: #ddd;
 }
 
-#panel {
+.panel {
 	display: inline-block;
 }
 
-.numbers div {
+.numbers input {
   display: inline-block;
   border: 1px solid #ddd;
   border-radius: 1px;
@@ -51,13 +51,14 @@
 
 .equal {
   display: inline-block;
-  border: 1px solid #3079ED;
+  border: 1px solid #90EE90;
   border-radius: 1px;
-  width: 188px;
+  width: 251px;
   text-align: center;
   padding: 100px 10px;
   margin: 10px 6px 10px 0;
   vertical-align: top;
+  color: black;
   cursor: pointer;
   background-color: #90EE90;
 }
